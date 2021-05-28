@@ -3,16 +3,167 @@ $barra:#071E26;
 $bg:#07394C;
 $bge:#EB639F;
 $bge2:#6997B7;
+$letra:#ffff;
+
+p{
+    color: $letra;
+}
+
+h3{
+    color: $letra;
+}
 
 .baner{
     background-color: $hedear;
+    
+}
+.banerImg{
+    width: 100%;
+    height: 30em;
 }
 
 .barra{
     background-color: $barra;
+    height: 4em;
+}
+
+.btninicio{
+    margin-top: 0.5em;
+    margin-left: 10em;
+}
+
+.btncat{
+    margin-top: 0.5em;
+}
+
+.h2{
+    padding-top: 5em;
+    margin-bottom: 5em;
+    margin-left: 25em;
+    color: $letra;
 }
 
 .bg{
     background-color: $bg;
+    padding-bottom: 2em;
 }
 
+.eve{
+    background-color: $bge;
+    padding: 2em;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+.eve2{
+    background-color: $bge2;
+    padding: 2em;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+.imgeve{
+    width: 20em;
+    height: 30em;
+    padding-top: 3em;
+    padding-bottom: 3em;  
+}
+
+.ulhome{
+    padding-top: 3em;
+    list-style: none;
+}
+
+.footer{
+    background-color: $hedear;
+}
+
+/* pantalla2 */
+
+.banerp{
+    background-color: $hedear;
+    
+}
+
+.imgp2{
+    width: 25em;
+    height: 35em;
+    margin-top: 2em;
+}
+
+.buttonp2{
+    margin-top: 2em;
+    background-color: $bge2;
+    color: $letra;
+}
+
+.texp2{
+    margin-top: 2em;
+}
+
+.imgbot{
+    width: 10em;
+    height: 15em;
+    margin: 1em;
+}
+
+/*pantalla3 */
+
+.bgp3{
+    padding-top: 5em;
+    height: 26em;
+}
+
+.textp3{
+    margin-top: 1em;
+    list-style: none;
+}
+
+.cajatext{
+    margin-bottom: 1m;
+    margin-top: 1em;
+    list-style: none;
+}
+
+.buttonp3{
+    margin-top: 5em;
+    background-color: $bge2;
+    color: $letra;
+}
+
+/*pantalla4*/ 
+
+.bgp4{
+    padding-top: 5em;
+    height: 26em;   
+}
+
+.buttonp4{
+    margin-top: 5em;
+    background-color: $bge2;
+    color: $letra;
+}
+
+.textp4{
+    margin-top: 1em;
+    padding-left: 4em;
+    list-style: none;
+}
+
+/*pantalla5*/ 
+
+.bgp5{
+    padding-top: 5em;
+    height: 30em;   
+}
+
+.textp5{
+    margin-top: 1em;
+    
+}
+
+.buttonp5{
+    margin-top: 5em;
+    background-color: $bge2;
+    color:$letra;
+}
