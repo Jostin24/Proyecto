@@ -1,3 +1,5 @@
+@import 'media-queries';
+
 $hedear:#7C1346;
 $barra:#071E26;
 $bg:#07394C;
@@ -166,4 +168,314 @@ h3{
     margin-top: 5em;
     background-color: $bge2;
     color:$letra;
+}
+
+/*responsite phone*/ 
+
+@include respond-to($phone){
+
+    /*Home*/
+    .banerhp{
+        width: 100%;
+        height: 15em;
+    }
+
+    .barrahp{
+        width: 100%;
+        height: 2em;
+    }
+
+    .colpading{
+        width: 3em;
+        padding-right: 1em;
+    }
+
+    .btniniciohp{
+        margin-left: 0em;
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    .btncathp{
+        margin-left: 0em;
+        padding: 2px;
+        font-size: 10px;
+    }
+    
+    .imghp{
+        width: 7em;
+        height: 14em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .colpadingimg{
+        padding-left: 0em;
+    }
+
+    .ulhomep{
+        padding-top: 2em;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .h2hp{
+        padding-top: 5em;
+        margin-bottom: 5em;
+        margin-left: 8em;
+        color: $letra;
+        font-size: 1em;
+    }
+
+    /* pantalla2p*/
+
+    .colpadingp2{
+        width: 0em;   
+    }
+
+    .colimgwidp2{
+        width: 12em;
+    }
+
+    .coltexwidp2{
+        width: 10em;
+    }
+
+    .imgp2p{
+        width: 10em;
+        height: 20em;
+        margin-top: 2em;
+    }
+
+    .buttonp2p{
+        margin-top: 2em;
+        margin-left: 3em;
+        
+    }
+
+    .imgbotp{
+        width: 4em;
+        height: 8em;
+        margin: 0.5em;
+    }
+
+    /*pantalla3*/ 
+
+    .bgp3p{
+        padding-top: 4em;
+        height: 35em;
+    }
+
+    .colwidp3{
+        width: 0em;   
+    }
+
+    .imputp3p{
+        width: 5em;
+    }
+
+    .colwidp3p{
+        width: 7em;
+    }
+
+    .ulp3p{
+        padding-left: 0em;
+    }
+
+    .colwidbutp3p{
+        width: 9em;
+    }
+
+    /*pagina4*/
+
+    .bgp4p{
+        padding-top: 4em;
+        height: 30em;
+    }
+
+    .colwidp4{
+        width: 0em;   
+    }
+
+    .colwidp4p{
+        width: 10em;
+    }
+
+    .imputp4p{
+        width: 8em;
+    }
+
+    .colwidbutp4p{
+        width: 8em;
+    }
+
+    .colwidbuttonp4p{
+        width: 8em;
+    }
+
+    /*pantalla5*/ 
+
+    .colwidp5p{
+        width: 3.5em;   
+    }
+
+    .coltextwidp5p{
+        width: 18em;
+    }
+
+    .colwidbutp5p{
+        width: 8em;
+    }
+
+    .colwidbuttonp5p{
+        width: 10em;
+    }
+}
+
+@include respond-to($tablet-landscape){
+    
+    /*Home*/ 
+
+    .banerht{
+        width: 100%;
+        height: 15em;
+    }
+
+    .barraht{
+        width: 100%;
+    }
+
+    .margininicioht{
+        margin-left: 0em;
+    }
+
+    .padingctght{
+        padding-left: 0em;
+    }
+
+    .h2ht{
+        margin-left: 10em;
+    }
+
+    .colwidht{
+        width: 0em;
+    }
+
+    .imght{
+        width: 12em;
+        height: 25em;
+    }
+
+    /*pantalla2*/ 
+
+    .colpadingp2t{
+        width: 0em;   
+    }
+
+    .colimgwidp2t{
+        width: 20em;
+    }
+
+    .imgp2t{
+        width: 20em;
+        height: 30em;
+    }
+
+    .coltexwidp2t{
+        width: 22em;
+    }
+
+    .colpading2t{
+        padding-left: 3em;
+    }
+
+    .colwidbutp2t{
+        width: 20em;
+    }
+
+    .imgbott{
+        width: 10em;
+        height: 15em;
+        margin: 0.5em;
+    }
+
+    /*pantalla3*/ 
+
+    .bgp3t{
+        padding-top: 4em;
+        height: 45em;
+    }
+
+    .colwidp3t{
+        width: 0em;   
+    }
+
+    .coltexwidp3t{
+        width: 15em;
+    }
+
+    .ilp3t{
+        margin-top: 2em;
+    }
+
+    .divrowp3t{
+        margin-top: 2em;
+    }
+
+    /*pantalla4*/
+    
+
+    .bgp4t{
+        padding-top: 4em;
+        height: 45em;
+    }
+
+    .ulp4t{
+        padding: 0em;
+    }
+
+    .colwidp4t{
+        width: 10em;
+    }
+
+    .coltexwidp4t{
+        width: 10em;
+    }
+
+    .colwidbuttonp4t{
+        width: 18em;
+    }
+
+    .margintrowp4t{
+        margin-top: 5em;
+    }
+
+    /*pantalla5*/ 
+
+    .bgp5t{
+        padding-top: 4em;
+        height: 45em;
+    }
+
+    .colwidp5t{
+        width: 8em;   
+    }
+
+    .coltextwidp5t{
+        width: 32em;
+    }
+
+    .colwidbutp5t{
+        width: 16em;
+    }
+
+    .colwidbuttonp5p{
+        width: 15em;
+    }
+
+    .margintrowp5t{
+        margin-top: 3em;
+    }
 }
